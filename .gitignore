@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+
+# Datasets / media
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# Logs / outputs
+*.log
+tmp/
+temp/
+outputs/
+runs/
